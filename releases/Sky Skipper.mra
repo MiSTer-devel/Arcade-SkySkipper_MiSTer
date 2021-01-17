@@ -15,7 +15,7 @@
 		<dip bits="14"      name="Service1" ids="No,Yes"/>
 		<dip bits="16"      name="Service2" ids="No,Yes"/>
 	</switches>
-	<buttons names="Bomb,Fast,Start 1P,Start 2P,Coin" default="A,Start,Select,R"/>
+	<buttons names="Bomb,Fast,Start 1P,Start 2P,Coin" default="A,B,Start,Select,R"/>
 	<rom index="0" zip="skyskipr.zip" md5="6638FE71452F0CCC3A3ED7150A654871">
 		<part crc="bdc7f218" name="tnx1-c.2a"/>
 		<part crc="cbe601a8" name="tnx1-c.2b"/>
