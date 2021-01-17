@@ -114,7 +114,6 @@ module emu
 	input   [6:0] USER_IN,
 	output  [6:0] USER_OUT
 );
-
 assign VGA_F1    = 0;
 assign VGA_SCALER= 0;
 assign USER_OUT  = '1;
