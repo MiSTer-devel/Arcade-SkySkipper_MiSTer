@@ -208,8 +208,8 @@ reg [7:0] sw[8];
 always @(posedge clk_sys) if (ioctl_wr && (ioctl_index==254) && !ioctl_addr[24:3]) sw[ioctl_addr[2:0]] <= ioctl_dout;
 
 
-wire m_start1  = joy[6];
-wire m_start2  = joy[7];
+wire m_start1  = joy1[6];
+wire m_start2  = joy[7] | joy2[6];
 wire m_coin1   = joy[8];
 
 wire m_right1  = joy1[0];
