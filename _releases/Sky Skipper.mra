@@ -14,7 +14,7 @@
 	<setname>skyskipr</setname>
 	<parent>skyskipr</parent>
 	<mameversion>0219</mameversion>
-	<rbf>popeye</rbf>
+	<rbf>skyskpr</rbf>
 	<about></about>
 
 	<resolution>15kHz</resolution>
